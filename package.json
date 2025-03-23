@@ -1,0 +1,30 @@
+{
+  "name": "blog_nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyennguyen25/blog_nodejs.git"
+  },
+  "keywords": [
+    "node",
+    "blog"
+  ],
+  "author": "duc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyennguyen25/blog_nodejs/issues"
+  },
+  "homepage": "https://github.com/nguyennguyen25/blog_nodejs#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
